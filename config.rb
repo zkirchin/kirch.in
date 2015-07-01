@@ -75,6 +75,9 @@ end
 
 activate :deploy do |deploy|
   deploy.method = :git
+  deploy.remote = 'https://github.com/zkirchin/zkirchin.github.io.git'
+  deploy.branch   = 'master'
+  deploy
   deploy.build_before = true
 end
 
