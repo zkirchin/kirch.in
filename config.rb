@@ -1,3 +1,11 @@
+#blog
+activate :blog do |blog|
+  # set options on blog
+end
+
+#pretty urls
+activate :directory_indexes
+
 ###
 # Compass
 ###
@@ -73,6 +81,7 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+#middleman deploy to github pages
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.remote = 'https://github.com/zkirchin/zkirchin.github.io.git'
