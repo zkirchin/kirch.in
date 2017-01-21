@@ -1,8 +1,12 @@
-<div id="f">
-	<div class="container">
-		<div class="row">
-			<p><a target="_blank" href="http://weloveclt.com/"><%= image_tag "weloveclt.png" %></a></p>
-			&#169;<%= Date.today.year %> kirch.in. All rights reserved.
-		</div>
-	</div>
-</div>
+<footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer--left-section">
+    <ul class="mdl-mini-footer--link-list">
+      <li class="mdl-logo"><a href="/">Home</a></li>
+      <li class="mdl-logo"><a href="/blog/">Blog</a></li>
+      <li>&#169;<%= Date.today.year %> kirch.in. All rights reserved.</li>
+    </ul>
+  </div>
+  <div class="mdl-mini-footer--right-section">
+	  <div class="mdl-logo"><a target="_blank" href="http://weloveclt.com/"><%= image_tag "weloveclt.png" %></a></div>
+  </div>
+</footer>
