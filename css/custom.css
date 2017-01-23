@@ -4,13 +4,15 @@
 
 html, body {
   font-family: 'Dosis', sans-serif;
-  height: 100% !important; }
+  height: 100% !important;
+  background: #607D8B;
+}
 
 p {
   font-size: 22px;
   font-weight: 200; }
 
-a {
+a, .turq {
   color: #1DE9B6;
 }
 
